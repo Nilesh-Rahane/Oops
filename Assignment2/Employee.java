@@ -1,20 +1,18 @@
-import java.util.*;
- class Employee
+class Employee1
 {
  int salary,id;
  String name;
-public Employee()
+public Employee1()
 {
 id=200;
 name="Nilesh Rahane";
 salary=20000;
 }
 }
-
 public class Employee{
 public static void main(String[] args)
 {
-Employee obj=new Employee();
+Employee1 obj=new Employee1();
 System.out.println("Employee Information:");
 System.out.println("Employee id:"+obj.id);
 System.out.println("Employee Name:"+obj.name);

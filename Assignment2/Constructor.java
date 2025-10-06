@@ -44,12 +44,7 @@ System.out.println("enter the Semister:");
 int sem=Sc.nextInt();
 Constructor obj1=new Constructor(name,RollNo,CGPA,sem,College_name);
 Constructor obj2=new Constructor(name,RollNo,CGPA,sem,College_name);
-Constructor obj3=new Constructor(name,RollNo,sem);
+Constructor obj3=new Constructor(name,RollNo);
 Constructor obj4=new Constructor(name,RollNo,CGPA);
-
-
-
-
-       
 }
 }

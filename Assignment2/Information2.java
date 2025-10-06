@@ -1,5 +1,4 @@
-import java.util.*;
- class Employee1
+class Employee1
 {
  int Emp_id;
  String name;

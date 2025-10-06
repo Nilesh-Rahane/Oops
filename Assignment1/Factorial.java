@@ -1,18 +1,18 @@
 import java.util.*;
 class Factorial{
-	public int fact(int n)
+public static int fact(int n)
 {
 	if(n==1) return 1;
 	int ans=n*fact(n-1);
-        return ans;
+     return ans;
 }
 public static void main(String[] args)
 {
 Scanner Sc=new Scanner(System.in);
 System.out.println("Enter the value of NUM:");
 int num=Sc.nextInt();
-Factorial obj=new Factorial();
-int result=obj.fact(num);
+// Factorial obj=new Factorial();
+int result=fact(num);
 System.out.println("The factorial of the Given number is:"+result);
 }
 }

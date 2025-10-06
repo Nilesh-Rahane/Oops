@@ -23,7 +23,7 @@ class Rbi{
 
 class Sbi extends Rbi{
 	void roi()
-{
+{       
 	System.out.println("the rate of interest of Rbi bank is 5");
 }
 }
@@ -32,11 +32,12 @@ public class OverRiding{
 public static void main(String args[]){
  
 Dog d1 = new Dog(); 
-//Sbi S=new Sbi();
+Sbi S=new Sbi();
 //Animal A=new Animal();
 
 d1.eat();
-//S.roi();
+S.roi();
 //A.eat();
+
 }
 }

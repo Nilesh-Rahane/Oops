@@ -1,6 +1,5 @@
 abstract class Player{
 public abstract void fitness();
-
 public void game()
 {
 	System.out.println("Playing Cricket Game");

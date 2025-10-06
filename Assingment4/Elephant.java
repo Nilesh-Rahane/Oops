@@ -14,5 +14,5 @@ public static void main(String args[])
 {
 	Elephant E=new Elephant();
 	E.voice();
-}
+} 
 }

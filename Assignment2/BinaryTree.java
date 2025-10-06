@@ -91,7 +91,7 @@ public int sum(Node Current)
         int right=sum(Current.right);
         return left+right+Current.data;
     }
- public boolean search(Node current, int key) {
+    public boolean search(Node current, int key) {
     if (current == null) {
         return false;
     }

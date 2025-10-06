@@ -13,7 +13,7 @@ public void fitness()
 }
 public static void main(String args[])
 {
-	Player A=new Boller();
+	Boller A=new Boller();
 	A.game();
 	A.fitness();	
 }

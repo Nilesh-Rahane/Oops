@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Area{
+class Area{
  public static  double  tringle_area(double base, double height)
 {
  return 0.5*base*height;

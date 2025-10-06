@@ -13,16 +13,15 @@ if(num%i==0)
   flag=false;
 }
 }
-if(num==1)
+if(num==0 || num==1)
 {
-System.out.println("Not Prime");
+  System.out.println("never be Prime");
 }
 else if(flag==true)
 {
-System.out.println("Prime Number");
-}
-else{
-System.out.println("Not Prime Number");
+  System.out.println("Prime Number");
+}else{
+  System.out.println("Not Prime");
 }
 }
 }

@@ -1,6 +1,6 @@
 import java.util.*;
 class Area{
- public static  double  circle_area(double radius)
+public static  double  circle_area(double radius)
 {
  return 3.14*radius*radius;
 }

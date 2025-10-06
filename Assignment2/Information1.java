@@ -1,5 +1,4 @@
-import java.util.*;
- class Employee
+class Employee
 {
  int salary,id;
  String name;
@@ -10,13 +9,12 @@ name="Nilesh Rahane";
 salary=20000;
 }
 
-void display()
+public void display()
 {
 System.out.println("Employee Information:");
 System.out.println("Employee id:"+id);
 System.out.println("Employee Name:"+name);
 System.out.println("Employee salary:"+salary);
-
 }
 }
 
